@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="stylesheet" href="page5style.css">
+<title>Product Detail Page</title>
+
+</head>
+<body>
+<header>
+  <div class="top-bar container" role="banner">
+    <img src="logo-colored.png" alt="brand logo">
+    <form class="search-bar" role="search" aria-label="Site search">
+      <input type="text" placeholder="Search" aria-label="Search input" />
+      <select aria-label="Category select">
+        <option>All category</option>
+      </select>
+      <button type="submit" aria-label="Search button">Search</button>
+    </form>
+    <i class="fa-solid fa-user"></i>
+    <i class="fa-regular fa-message"></i>
+    <i class="fa-solid fa-heart"></i>
+    <i class="fa-solid fa-cart-arrow-down"></i>
+  </div>
+  <nav class="main-nav" role="navigation" aria-label="Primary navigation">
+    <ul>
+     <i class="fa-solid fa-bars"></i>
+      <li>All category</li>
+      <li>Hot offers</li>
+      <li>Gift boxes</li>
+      <li>Projects</li>
+      <li>Menu item</li>
+      <li>Help</li>
+      <i class="fa-solid fa-angle-down"></i>
+      <li style="margin-left:320px; font-weight: 600;">English, USD</li>
+      <i class="fa-solid fa-angle-down"></i>
+      <li style="font-weight: 600; cursor: pointer;">Ship to <img src="DE@2x.png" ></li>
+      <i class="fa-solid fa-angle-down"></i>
+    </ul>
+  </nav>
+</header>
+
+<div class="breadcrumb container" aria-label="Breadcrumb">
+  <a href="#">Home</a> &gt; <a href="#">Clothings</a> &gt; <a href="#">Men's wear</a> &gt; Summer clothing
+</div>
+
+  <section class="main-product" aria-label="Main product information">
+    <div class="product-images">
+      <div class="product-main-image">
+        <img src="bitmap1.jpg" alt="Mens Long Sleeve T-shirt Cotton Base Layer Slim Muscle Polo" />
+      </div>
+      <div class="product-thumbnails" role="list" aria-label="Product image thumbnails">
+        <img src="bitmap1.jpg" alt="Thumbnail 1" class="selected" role="listitem" />
+        <img src="bitmap2.jpg" alt="Thumbnail 2" role="listitem" />
+        <img src="bitmap3.jpg" alt="Thumbnail 3" role="listitem" />
+        <img src="bitmap4.jpg" alt="Thumbnail 4" role="listitem" />
+        <img src="bitmap5.jpg" alt="Thumbnail 5" role="listitem" />
+        <img src="bitmap1.jpg" alt="Thumbnail 6" role="listitem" />
+      </div>
+    </div>
+
+    <div class="product-details">
+      <div class="stock-status" aria-live="polite">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M9 16.172l-3.95-3.95-1.414 1.414L9 19 20.364 7.636l-1.414-1.414z"/></svg> In stock
+      </div>
+      <h1 class="product-title">Mens Long Sleeve T-shirt Cotton Base Layer Slim Muscle</h1>
+      <div class="product-rating" aria-label="Customer rating: 9.3 stars from 32 reviews, 154 sold">
+        <svg aria-hidden="true" viewBox="0 0 24 24" fill="#f59e0b"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+        <span>9.3</span>
+        <span aria-label="Reviews">32 reviews</span>
+        <span class="sold-count">154 sold</span>
+      </div>
+      <div class="price-table" role="table" aria-label="Price tiers">
+        <div>
+          <div class="price">$98.00</div>
+          <small>50-100 pcs</small>
+        </div>
+        <div>
+          <div class="price">$90.00</div>
+          <small>100-700 pcs</small>
+        </div>
+        <div>
+          <div class="price">$78.00</div>
+          <small>700+ pcs</small>
+        </div>
+      </div>
+      <table class="info-table" role="presentation">
+        <tbody>
+          <tr><td>Price: <hr></td><td>Negotiable <hr> </td></tr>
+          <tr><td>Type:</td><td>Classic shoes</td></tr>
+          <tr><td>Material:</td><td>Plastic material</td></tr>
+          <tr><td>Design: <hr></td><td>Modern nice <hr></td></tr>
+          <tr><td>Customization:</td><td>Customized logo and design custom packages</td></tr>
+          <tr><td>Protection:</td><td>Refund Policy</td></tr>
+          <tr><td>Warranty:</td><td>2 years full warranty</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <aside class="supplier-card" aria-label="Supplier information">
+      <div class="supplier-header">
+        <div class="supplier-logo" aria-hidden="true">R</div>
+        <div class="supplier-name">Supplier Guanqoi Trading LLC</div>
+      </div>
+      <hr>
+      <div class="supplier-info">
+        <div><img src="https://flagcdn.com/w20/de.png" alt="Germany flag" width="20" height="14" style="border-radius:2px;"> Germany, Berlin</div>
+        <div> <i class="fa-regular fa-circle-check"></i> Verified Seller</div>
+        <div> <i class="fa-solid fa-globe"></i> Worldwide shipping</div>
+      </div>
+      <button class="btn-primary" type="button">Send inquiry</button>
+      <button class="btn-secondary" type="button">Seller's profile</button>
+      <div class="save-later" tabindex="0">
+        <i class="fa-regular fa-heart"></i>
+        Save for later
+      </div>
+    </aside>
+  </section>
+
+
+  <div class="main-row">
+ 
+    <section class="tabs-container" aria-label="Product details tabs">
+    <div class="tabs-left">
+      <nav class="tabs-nav" role="tablist" aria-label="Product detail tabs">
+        <button class="active" role="tab" aria-selected="true" aria-controls="tab-description" id="tab-btn-description">Description</button>
+        <button role="tab" aria-selected="false" aria-controls="tab-reviews" id="tab-btn-reviews">Reviews</button>
+        <button role="tab" aria-selected="false" aria-controls="tab-shipping" id="tab-btn-shipping">Shipping</button>
+        <button role="tab" aria-selected="false" aria-controls="tab-about-seller" id="tab-btn-about-seller">About seller</button>
+      </nav>
+      <div id="tab-description" role="tabpanel" aria-labelledby="tab-btn-description" tabindex="0" class="tab-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+        <table>
+          <tbody>
+            <tr><td>Model</td><td>#8786867</td></tr>
+            <tr><td>Style</td><td>Classic style</td></tr>
+            <tr><td>Certificate</td><td>ISO-898921212</td></tr>
+            <tr><td>Size</td><td>34mm x 450mm x 19mm</td></tr>
+            <tr><td>Memory</td><td>36GB RAM</td></tr>
+          </tbody>
+        </table>
+        <ul>
+          <li><svg viewBox="0 0 24 24"><path d="M9 16.172l-3.95-3.95-1.414 1.414L9 19 20.364 7.636l-1.414-1.414z"/></svg>Some great feature name here</li>
+          <li><svg viewBox="0 0 24 24"><path d="M9 16.172l-3.95-3.95-1.414 1.414L9 19 20.364 7.636l-1.414-1.414z"/></svg>Lorem ipsum dolor sit amet, consectetur</li>
+          <li><svg viewBox="0 0 24 24"><path d="M9 16.172l-3.95-3.95-1.414 1.414L9 19 20.364 7.636l-1.414-1.414z"/></svg>Duis aute irure dolor in reprehenderit</li>
+          <li><svg viewBox="0 0 24 24"><path d="M9 16.172l-3.95-3.95-1.414 1.414L9 19 20.364 7.636l-1.414-1.414z"/></svg>Some great feature name here</li>
+        </ul>
+      </div>
+      <div id="tab-reviews" role="tabpanel" aria-labelledby="tab-btn-reviews" tabindex="0" class="tab-content" hidden>
+        <p>Reviews content placeholder.</p>
+      </div>
+      <div id="tab-shipping" role="tabpanel" aria-labelledby="tab-btn-shipping" tabindex="0" class="tab-content" hidden>
+        <p>Shipping content placeholder.</p>
+      </div>
+      <div id="tab-about-seller" role="tabpanel" aria-labelledby="tab-btn-about-seller" tabindex="0" class="tab-content" hidden>
+        <p>About seller content placeholder.</p>
+      </div>
+    </div>
+    </section>
+    
+    <section class="side-container">
+        <aside class="sidebar-right" aria-label="You may like recommendations">
+      <h4>You may like</h4>
+      <div class="recommendation-item" tabindex="0">
+        <img src="image 30.png" alt="Men Blazers Sets Elegant Formal" />
+        <div class="recommendation-details">
+          <div class="recommendation-name">Men Blazers Sets Elegant Formal</div>
+          <div class="recommendation-price">$7.00 - $99.50</div>
+        </div>
+      </div>
+      <div class="recommendation-item" tabindex="0">
+        <img src="Bitmap.png" alt="Men Shirt Sleeve Polo Contrast" />
+        <div class="recommendation-details">
+          <div class="recommendation-name">Men Shirt Sleeve Polo Contrast</div>
+          <div class="recommendation-price">$7.00 - $99.50</div>
+        </div>
+      </div>
+      <div class="recommendation-item" tabindex="0">
+        <img src="2 1.png" alt="Apple Watch Series Space Gray" />
+        <div class="recommendation-details">
+          <div class="recommendation-name">Apple Watch Series Space Gray</div>
+          <div class="recommendation-price">$7.00 - $99.50</div>
+        </div>
+      </div>
+      <div class="recommendation-item" tabindex="0">
+        <img src="Bitmap.png" alt="Basketball Crew Socks Long Stuff" />
+        <div class="recommendation-details">
+          <div class="recommendation-name">Basketball Crew Socks Long Stuff</div>
+          <div class="recommendation-price">$7.00 - $99.50</div>
+        </div>
+      </div>
+      <div class="recommendation-item" tabindex="0">
+        <img src="image 26.png" alt="New Summer Men's castrol T-Shirts" />
+        <div class="recommendation-details">
+          <div class="recommendation-name">New Summer Men's castrol T-Shirts</div>
+          <div class="recommendation-price">$7.00 - $99.50</div>
+        </div>
+      </div>
+    </aside>
+    </section>   
+
+  </div>
+  
+  
+
+  <section class="related-products" aria-label="Related products">
+    <h3>Related products</h3>
+    <div class="related-list">
+      <div class="related-item" tabindex="0">
+        <img src="image 24.png" alt="Xiaomi Redmi 8 Original" />
+        <h6>Xiaomi Redmi 8 Original</h6>
+        <div class="price-range">$32.00-$40.00</div>
+      </div>
+      <div class="related-item" tabindex="0">
+        <img src="8.png" alt="Xiaomi Redmi 8 Original" />
+        <h6>Xiaomi Redmi 8 Original</h6>
+        <div class="price-range">$32.00-$40.00</div>
+      </div>
+      <div class="related-item" tabindex="0">
+        <img src="image 86 (2).png" alt="Xiaomi Redmi 8 Original" />
+        <h6>Xiaomi Redmi 8 Original</h6>
+        <div class="price-range">$32.00-$40.00</div>
+      </div>
+      <div class="related-item" tabindex="0">
+        <img src="Bitmap (2).png" alt="Xiaomi Redmi 8 Original" />
+        <h6>Xiaomi Redmi 8 Original</h6>
+        <div class="price-range">$32.00-$40.00</div>
+      </div>
+      <div class="related-item" tabindex="0">
+        <img src="image 85 (2).png" alt="Xiaomi Redmi 8 Original" />
+        <h6>Xiaomi Redmi 8 Original</h6>
+        <div class="price-range">$32.00-$40.00</div>
+      </div>
+      <div class="related-item" tabindex="0">
+        <img src="7.png" alt="Xiaomi Redmi 8 Original" />
+        <h6>Xiaomi Redmi 8 Original</h6>
+        <div class="price-range">$32.00-$40.00</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="discount-banner" aria-label="Discount promotion">
+    <div class="text">
+      <strong>Super discount on more than 100 USD</strong><br />
+      Have you ever finally just write dummy info
+    </div>
+    <button class="btn-shop" type="button">Shop now</button>
+  </section>
+</main>
+
+<footer aria-label="Site footer">
+  <div class="container">
+    <div class="footer-brand">
+      <img src="logo-colored.png">
+      <p>Best information about the company goes here but now lorem ipsum is</p>
+      <div class="social-icons" aria-label="Social media links">
+        <a href="#" aria-label="Facebook" title="Facebook" tabindex="0"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" aria-label="Twitter" title="Twitter" tabindex="0"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" aria-label="LinkedIn" title="LinkedIn" tabindex="0"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" aria-label="Instagram" title="Instagram" tabindex="0"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="YouTube" title="YouTube" tabindex="0"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="footer-links">
+      <div>
+        <h4>About</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Find store</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">Blogs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Partnership</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Find store</a></li>
+          <li><a href="#">Categories</a></li>
+          <li><a href="#">Blogs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Information</h4>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Money Refund</a></li>
+          <li><a href="#">Shipping</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>For users</h4>
+        <ul>
+          <li><a href="#">Login</a></li>
+          <li><a href="#">Register</a></li>
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">My Orders</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="app-download" aria-label="Download app">
+      <h4>Get app</h4>
+      <div class="app-icons">
+        <a href="#" aria-label="Download on the App Store" tabindex="0"><img src="market-button.png" alt="App Store" /></a>
+        <a href="#" aria-label="Get it on Google Play" tabindex="0"><img src="Group.png" alt="Google Play" /></a>
+      </div>
+    </div>
+  </div>
+  <div style="text-align:center; padding-top:1rem; font-size:0.8rem; color:#6c757d;">© 2023 Ecommerce.</div>
+</footer>
+
+
+<script>
+  // Tab functionality
+  const tabs = document.querySelectorAll('.tabs-nav button');
+  const tabPanels = document.querySelectorAll('.tab-content');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => {
+        t.classList.remove('active');
+        t.setAttribute('aria-selected', 'false');
+      });
+      tabPanels.forEach(panel => panel.hidden = true);
+
+      tab.classList.add('active');
+      tab.setAttribute('aria-selected', 'true');
+      const panelId = tab.getAttribute('aria-controls');
+      document.getElementById(panelId).hidden = false;
+    });
+  });
+
+  // Thumbnail click to change main image (optional)
+  const thumbnails = document.querySelectorAll('.product-thumbnails img');
+  const mainImage = document.querySelector('.product-main-image img');
+  thumbnails.forEach(thumb => {
+    thumb.addEventListener('click', () => {
+      thumbnails.forEach(t => t.classList.remove('selected'));
+      thumb.classList.add('selected');
+      mainImage.src = thumb.src;
+      mainImage.alt = thumb.alt;
+    });
+  });
+</script>
+</body>
+</html>
